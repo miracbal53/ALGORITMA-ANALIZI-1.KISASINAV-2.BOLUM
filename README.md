@@ -65,3 +65,9 @@ En iyi durumda: Algoritmanın en iyi durumunda, tüm çiftler arasındaki en kı
 En kötü durumda: Algoritmanın en kötü durumunda, tüm düğümler arasındaki en kısa yolların hesaplanması için tüm düğümler arasında 3 adımlık bir döngü kullanılır. Bu durumda, hesaplama zamanı O(V^3) dir. Yani, grafiğin düğüm sayısı küp şeklinde arttıkça hesaplama zamanı büyür.
 
 Ortalama durumda: Algoritmanın ortalama durumu tam olarak hesaplanamaz, ancak genellikle grafiğin boyutuna bağlı olarak artar. Algoritmanın çalışma zamanı, V ve E sayılarına göre farklılık gösterir.
+
+     HANGİLERİ ARAMA ALGORİTMASIDIR ?
+     
+Jury-box: Bu kelime arama algoritmaları ile ilgili bir terim değil, ancak "Jury selection algorithm" olarak bilinen bir algoritma vardır. Bu algoritma, özellikle mahkeme jürilerinin seçiminde kullanılır.
+
+Swim: Bu kelime, bir arama algoritması ile doğrudan ilişkili değildir. Ancak, "Swim algorithm" olarak adlandırılan bir çeşit evrimsel algoritma vardır. Bu algoritma, birçok popülasyondan oluşan bir arama uzayında örnekler alır ve bu örneklerin en iyilerini bulmaya çalışır.
