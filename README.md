@@ -1,6 +1,9 @@
 # ALGORITMA-ANALIZI-1.KISASINAV-2.BOLUM
 1. Konu : HCS kumeleme algoritması - 2. Konu : Zhu-Takaoka algoritmasi
 
+
+        HCS KÜMELE ALGORİTMASI 
+
 ///// TANIMI 
 
 HCS kümeleme algoritması yani (Hierarchical Clustering Scheme), bir veri setindeki benzer verileri gruplandırmak için kullanılan bir kümeleme yöntemidir. Bu algoritma, verileri bir hiyerarşik yapıda gruplandırır, yani kümeleme işlemi, alt kümeleme adımlarına ayrılabilir.
@@ -40,3 +43,25 @@ Benzerlik Matrisi Oluşturma: Tüm veri noktalarının birbirleri ile olan benze
 Kümeleme İşlemi: Kümeleme işlemi, O(n^3 log n) zaman gerektirir. İlk olarak, her bir veri noktası tek başına bir küme olarak kabul edilir. Daha sonra, benzerlik matrisi kullanılarak, en yakın iki küme birleştirilir ve birbirine en yakın iki veri noktası belirlenir. Bu işlem, birleştirme hiyerarşisi olarak adlandırılan bir yapıda devam eder ve her adımda, birleştirme işlemi yapılan iki küme bir üst seviyedeki bir kümenin alt kümesi olarak ele alınır.
 
 toplam çalışma zamanı O(n^3 log n + n^2) olarak söylenebilir.
+
+        ZHU-TAKAOKA ALGORİTMASI
+        
+///// TANIMI
+
+Zhu-Takaoka algoritması, grafiklerin en kısa yol (shortest path) problemi üzerinde çalışır ve dinamik programlama yaklaşımına dayanır. Bu algoritma, bir grafikteki tüm çiftler arasındaki en kısa yolu hesaplamak için kullanılır.
+
+////// AMACI VE KULLANIM ALANLARI
+
+Algoritmanın amacı, verilen bir grafikteki her bir çift düğüm arasındaki en kısa yolu hesaplamaktır. En kısa yollar, bir düğümden diğerine en az sayıda kenar kullanarak ulaşılabilen yolları ifade eder. Bu tür yollar, birçok uygulamada önemlidir, örneğin ağ yönlendirmesi, sosyal ağ analizi, trafik akışı modellemesi ve işlem optimizasyonu gibi alanlarda kullanılır.
+
+Zhu-Takaoka algoritması, farklı türde grafiklerde (ağırlıksız ve ağırlıklı, yönlendirilmiş ve yönsüz) kullanılabilir. Ayrıca, grafikteki en kısa yolu hesaplama işlemini daha hızlı hale getiren bazı optimizasyon teknikleri de içerir.
+
+Zhu-Takaoka algoritması, en kısa yolu hesaplaması gerektiren çeşitli uygulamalarda kullanılabilir. Örneğin, bir şehirdeki en kısa rota veya bir ağ üzerindeki en hızlı veri aktarımı gibi sorunlar bu algoritmayla çözülebilir. Ayrıca, genellikle yapay zeka ve robotik alanlarında da kullanılır.
+
+///// ÇALIŞMA ZAMANI 
+
+En iyi durumda: Algoritmanın en iyi durumunda, tüm çiftler arasındaki en kısa yolların zaten hesaplanmış olduğu varsayılır. Bu durumda, hesaplama zamanı O(1) dir. Yani, zaman sabit ve grafiğin boyutu ile ilgisi yoktur.
+
+En kötü durumda: Algoritmanın en kötü durumunda, tüm düğümler arasındaki en kısa yolların hesaplanması için tüm düğümler arasında 3 adımlık bir döngü kullanılır. Bu durumda, hesaplama zamanı O(V^3) dir. Yani, grafiğin düğüm sayısı küp şeklinde arttıkça hesaplama zamanı büyür.
+
+Ortalama durumda: Algoritmanın ortalama durumu tam olarak hesaplanamaz, ancak genellikle grafiğin boyutuna bağlı olarak artar. Algoritmanın çalışma zamanı, V ve E sayılarına göre farklılık gösterir.
