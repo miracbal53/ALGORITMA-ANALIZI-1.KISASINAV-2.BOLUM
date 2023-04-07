@@ -44,7 +44,7 @@ Kümeleme İşlemi: Kümeleme işlemi, O(n^3 log n) zaman gerektirir. İlk olara
 
 toplam çalışma zamanı O(n^3 log n + n^2) olarak söylenebilir.
 
-        ZHU-TAKAOKA ALGORİTMASI
+        ZHU-TAKAOKA *ARAMA* ALGORİTMASI
         
 ///// TANIMI
 
@@ -66,8 +66,6 @@ En kötü durumda: Algoritmanın en kötü durumunda, tüm düğümler arasında
 
 Ortalama durumda: Algoritmanın ortalama durumu tam olarak hesaplanamaz, ancak genellikle grafiğin boyutuna bağlı olarak artar. Algoritmanın çalışma zamanı, V ve E sayılarına göre farklılık gösterir.
 
-     HANGİLERİ ARAMA ALGORİTMASIDIR ?
-     
-Jury-box: Bu kelime arama algoritmaları ile ilgili bir terim değil, ancak "Jury selection algorithm" olarak bilinen bir algoritma vardır. Bu algoritma, özellikle mahkeme jürilerinin seçiminde kullanılır.
+     HANGİSİ ARAMA ALGORİTMASIDIR ?
+ZHU-TAKAOKA ALGORİTMASI BİR ARAMA ALGORİTMASIDIR.     
 
-Swim: Bu kelime, bir arama algoritması ile doğrudan ilişkili değildir. Ancak, "Swim algorithm" olarak adlandırılan bir çeşit evrimsel algoritma vardır. Bu algoritma, birçok popülasyondan oluşan bir arama uzayında örnekler alır ve bu örneklerin en iyilerini bulmaya çalışır.
